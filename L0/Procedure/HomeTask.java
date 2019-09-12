@@ -1,17 +1,18 @@
 
 package L0.Procedure;
-import java.util.Scanner;
+
+import static jdk.nashorn.internal.objects.Global.println;
+
 public class HomeTask {
-    private static int i;
 
     public static void main(String[] args) {
-        int x;
-        Scanner X= new Scanner(System.in);
-        int n = X.nextInt();
-        int=1;
-        double sum=0;
-        while (i<=n);
-        sum=sum+Math.pow(i,4);
+        int number=2;
+        int pow=4;
+        int result =1;
+        for(int i=0; i < pow; i++){
+            result=result*number;
+        }
+        println(result);
 
         
         
